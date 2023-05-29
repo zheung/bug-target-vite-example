@@ -1,0 +1,15 @@
+{
+	"name": "bug-target-vite",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"develop": "vite --force",
+		"build": "vite build --force",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"tla-module": "file:../tla-module/tla-module-1.0.0.tgz",
+		"vite": "^4.3.9"
+	}
+}
